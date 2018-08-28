@@ -1,5 +1,5 @@
 # coding: utf-8
-require_relative 'array'
+require_relative '../../overwrites/array'
 
 # Classe des exemples (pour l'apprentissage suppervisé)
 # Un exemple représente une sortie attendue correspondant à une entrée donnée.
