@@ -1,3 +1,4 @@
+# coding: utf-8
 require_relative '../../functionSet'
 
 # Tests a proc to know if it's identity on not at the precision given.
@@ -33,6 +34,8 @@ def identity_test(proc, precision = 10000, verbose = false)
   return test_result
 end
 
+# On récupère les arguments passés en console
 precision, verbose = ARGV
 
+# On lance le test avec les arguments récupérés
 identity_test(FunctionSet::IDENTITY, precision.to_i, verbose.to_s == "true")

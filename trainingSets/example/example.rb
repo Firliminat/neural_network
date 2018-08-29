@@ -7,8 +7,8 @@ class Example
   # Méthode d'initialisation des examples
   # Prend en entrée deux array de nombres, un input et un output.
   def initialize(input, output)
-    @input = input
-    @output = output
+    @input = input.clone
+    @output = output.clone
   end
 
   ###########
